@@ -1,0 +1,85 @@
+{
+  "name": "intellifleet-core-ui",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "dev:test": "vite --mode test",
+    "dev:prod": "vite --mode production",
+
+    "build": "tsc -b && vite build",
+    "build:test": "tsc -b && vite build --mode test",
+    "build:dev": "tsc -b && vite build --mode development",
+
+    "preview": "vite preview",
+    "preview:test": "vite preview --mode test",
+    "preview:prod": "vite preview --mode production",
+
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.29.0",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
+    "@eslint/js": "^9.39.4",
+    "@fortawesome/fontawesome-svg-core": "^7.2.0",
+    "@fortawesome/react-fontawesome": "^3.3.0",
+    "@mui/icons-material": "^9.0.0",
+    "@mui/material": "^9.0.0",
+    "@mui/x-date-pickers": "^9.0.2",
+    "@rolldown/plugin-babel": "^0.2.2",
+    "@szhsin/react-menu": "^4.5.1",
+    "@types/babel__core": "^7.20.5",
+    "@types/node": "^24.12.2",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.1",
+    "axios": "^1.15.0",
+    "babel-plugin-react-compiler": "^1.0.0",
+    "dayjs": "^1.11.20",
+    "eslint": "^9.39.4",
+    "eslint-plugin-react-hooks": "^7.0.1",
+    "eslint-plugin-react-refresh": "^0.5.2",
+    "globals": "^17.4.0",
+    "jwt-decode": "^4.0.0",
+    "leaflet": "^1.9.4",
+    "leaflet-defaulticon-compatibility": "^0.1.2",
+    "node-forge": "^1.4.0",
+    "notistack": "^3.0.2",
+    "react-data-table-component": "^7.7.0",
+    "react-hook-form": "^7.72.1",
+    "react-leaflet": "^5.0.0",
+    "react-querybuilder": "^8.15.0",
+    "react-router-dom": "^7.14.1",
+    "sortablejs": "^1.15.7",
+    "typescript": "~6.0.2",
+    "typescript-eslint": "^8.58.0",
+    "underscore": "^1.13.8",
+    "vite": "^8.0.4",
+    "vite-tsconfig-paths": "^6.1.1",
+    "zustand": "^5.0.12"
+  },
+  "comments": {
+    "scripts": {
+      "dev": "Start dev server (uses .env + .env.development)",
+      "dev:test": "Run app using test environment (uses .env + .env.test)",
+      "dev:prod": "Run app using production env (uses .env + .env.production)",
+
+      "build": "TypeScript build + production build (uses .env + .env.production)",
+      "build:test": "Build using test environment (uses .env + .env.test)",
+      "build:dev": "Build using development environment (uses .env + .env.development)",
+
+      "preview": "Preview production build (uses .env + .env.production)",
+      "preview:test": "Preview test build (uses .env + .env.test)",
+      "preview:prod": "Preview production explicitly (uses .env + .env.production)",
+
+      "lint": "Run ESLint across project"
+    },
+    "node-forge": "Used for encryption and decryption"
+  }
+}
