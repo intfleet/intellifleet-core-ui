@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: intellifleet-core-ui-app
 spec:
-  replicas: 2
+  replicas: 
   selector:
     matchLabels:
       app: intellifleet-core-ui-app
