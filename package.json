@@ -8,9 +8,9 @@
     "dev:test": "vite --mode test",
     "dev:prod": "vite --mode production",
 
-    "build": "tsc -b && vite build",
-    "build:test": "tsc -b && vite build --mode test",
-    "build:dev": "tsc -b && vite build --mode development",
+    "build": "tsc --noEmit && vite build",
+    "build:test": "tsc --noEmit && vite build --mode test",
+    "build:dev": "tsc --noEmit && vite build --mode development",
 
     "preview": "vite preview",
     "preview:test": "vite preview --mode test",
