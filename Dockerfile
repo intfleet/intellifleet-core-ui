@@ -9,7 +9,7 @@ RUN npm install --legacy-peer-deps
 
 COPY . .
 
-RUN npm run build
+RUN npm run build:test
 
 # Stage 2: Serve with nginx
 FROM nginx:stable-alpine
