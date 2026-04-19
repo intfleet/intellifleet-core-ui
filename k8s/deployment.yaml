@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: intellifleet-core-ui-app
-          image: intellifleet-core-ui-image:latest
+          image: intellifleet-core-ui-image:BUILD_NUMBER
           imagePullPolicy: Never
           ports:
             - containerPort: 80
